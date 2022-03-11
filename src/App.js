@@ -4,7 +4,7 @@ import './App.css';
 import StrangerThings from './components/StrangerThings';
 
 const developmentVersion = process.env.DEVELOPMENT_VERSION === 'true'
-  ? <h1>Em desenvolvimento</h1> : <p> </p>;
+  ? 'Em desenvolvimento' : ' ';
 
 function App() {
   return (
