@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <StrangerThings />
-      <h1>{ developmentVersion }</h1>
+      <p>{ developmentVersion }</p>
     </div>
   );
 }
